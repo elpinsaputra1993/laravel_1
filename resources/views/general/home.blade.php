@@ -1,0 +1,23 @@
+@extends('layout.app')
+
+@section('title', 'Home')
+
+@section('content')
+<h1>SanberBook</h1>
+<h2>Social Media Developer Santai Berkualitas</h2>
+<p>Belajar dan Berbagai adar hidup ini semakin santai berkualitas</p>
+<h3>Benefit Join di SanberBook</h3>
+<ul>
+    <li>Mendapatkan motivasi dari sesama developer</li>
+    <li>Shariing knowledge dari para mastah Sanber</li>
+    <li>Dibuat oleh calon web developer terbaik</li>
+</ul>
+<h3>Cara Bergabung ke SanberBook</h3>
+<ol>
+    <li>Mengunjungi Website ini</li>
+    <li>Mendaftar di <a href="/registrasi">Form Sign Up</a></li>
+    <li>Selesai !</li>
+</ol>
+
+
+@endsection
